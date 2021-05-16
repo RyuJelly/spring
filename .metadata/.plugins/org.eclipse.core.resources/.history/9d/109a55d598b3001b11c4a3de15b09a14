@@ -1,0 +1,11 @@
+package org.used.service;
+
+import org.used.domain.ProductVO;
+
+public interface ProductService {
+
+	public void register(ProductVO product);
+	
+	public
+	
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+
+<mapper namespace="kosta.mapper.BoardMapper">
+	<cache />
+	
+	<insert id="insertBoard" parameterType="Board">
+		insert into board(
+			SEQ, TITLE, WRITER, CONTENTS, REGDATE, HITCOUNT, FNAME
+		)
+		values(
+			BOARD_SEQ.NEXTVAL, #{title}, #{writer}, #{contents}, SYSDATE, 0, #{fname}
+		)
+	
+	</insert>
+	
+	 <select id="listBoard" resultType="Board">
+		select * from board		
+			order by seq desc
+	</select>
+	
+	<select id="detailBoard" parameterType="int" resultType="Board">
+		select * from board where seq = #{seq}
+	</select>
+	<!--
+	<update id="updateBoard" parameterType="Board">
+		update board set title=#{title}, contents=#{contents}
+			where seq = #{seq}
+	</update> -->
+	
+	<!-- <resultMap type="Blog" id="blogMap">
+		<result property="id" column="b_id"/>
+		<result property="name" column="b_name"/>
+		<result property="title" column="b_title"/>
+	</resultMap>
+	
+	<select id="test" resultMap="blogMap">id, name, title
+		select * from blog
+		select 
+			b_id as id,
+			b_name as name,
+			b_title as title
+			from blog;
+		select * from blog;b_id, b_name, b_title 
+	
+	</select> -->
+	
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

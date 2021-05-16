@@ -1,0 +1,16 @@
+package org.used.service;
+
+import org.springframework.stereotype.Service;
+import org.used.mapper.ProductMapper;
+
+import lombok.AllArgsConstructor;
+import lombok.extern.log4j.Log4j;
+
+@Service
+@Log4j
+@AllArgsConstructor
+public interface ProductService {
+
+	private ProductMapper mapper;
+	
+}

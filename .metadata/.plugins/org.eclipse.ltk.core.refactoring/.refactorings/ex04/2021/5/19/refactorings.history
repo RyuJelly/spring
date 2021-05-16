@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 5 elements from project &apos;ex04&apos;&#x0D;&#x0A;- Original project: &apos;ex04&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     META-INF&#x0D;&#x0A;     org&#x0D;&#x0A;     database.sql&#x0D;&#x0A;     log4j.xml&#x0D;&#x0A;     log4jdbc.log4j2.properties" description="Delete elements" element1="src/main/webapp/resources/org" element2="src/main/webapp/resources/META-INF" element3="src/main/webapp/resources/log4j.xml" element4="src/main/webapp/resources/database.sql" element5="src/main/webapp/resources/log4jdbc.log4j2.properties" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="5" stamp="1620000171221" subPackages="false" version="1.0"/>
+</session>

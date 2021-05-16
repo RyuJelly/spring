@@ -1,0 +1,5 @@
+package org.used.domain;
+
+public class ProductVO {
+
+}

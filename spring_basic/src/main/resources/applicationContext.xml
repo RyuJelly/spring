@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+<!-- 	<bean id="oracleDao" class="kosta.di.OracleDao" />
+	<bean id="mySqlDao" class="kosta.di.MySqlDao" />
+
+	<bean id="service" class="kosta.di.WriteService">
+		<property name="dao" ref="mySqlDao"></property>
+		<constructor-arg ref="oracleDao" />
+	</bean> -->
+	<context:annotation-config/>
+	<context:component-scan base-package="kosta.di"/>
+
+</beans>

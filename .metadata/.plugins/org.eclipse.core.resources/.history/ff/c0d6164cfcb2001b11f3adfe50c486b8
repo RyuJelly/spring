@@ -1,0 +1,5 @@
+package org.used.mapper;
+
+public interface ProductMapper {
+
+}

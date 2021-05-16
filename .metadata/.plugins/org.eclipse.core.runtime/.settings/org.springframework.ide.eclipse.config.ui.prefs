@@ -1,0 +1,20 @@
+//com.springsource.config.ui.prefs.activePageIndex\:/ex00/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/ex00/src/main/webapp/WEB-INF/spring/root-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/ex01/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/ex03/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/ex03/src/main/webapp/WEB-INF/spring/root-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/ex04/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/ex04/src/main/webapp/WEB-INF/spring/root-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/ex07/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/ex07/src/main/webapp/WEB-INF/spring/root-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/ex07/src/main/webapp/WEB-INF/spring/security-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/finalProject/src/main/webapp/WEB-INF/spring/root-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/spring_basic/src/main/resources/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/spring_basic/src/main/resources/commonConcern.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/spring_mission/src/main/resources/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/spring_web/WebContent/WEB-INF/springapp-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/test/src/main/webapp/WEB-INF/spring/root-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/used/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/used/src/main/webapp/WEB-INF/spring/root-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+com.springsource.config.ui.prefs.tabs.dialog=always
+eclipse.preferences.version=1

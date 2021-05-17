@@ -28,6 +28,11 @@ public class ProductController {
 		model.addAttribute("list", service.getList());		
 	}
 	
+	@GetMapping("/register")
+	public void register(){
+		
+	}
+	
 	@PostMapping("/register")
 	public String register(ProductVO product, RedirectAttributes rttr){
 		
@@ -59,7 +64,16 @@ public class ProductController {
 		return "redirect:/product/list";
 	}
 	
-	
+	@PostMapping("/remove")
+	public String remove(@RequestParam("product_id") Long product_id, RedirectAttributes rttr){
+		
+		log.info("remove......................................" + product_id);
+		if(service.remove(product_id)){
+			rttr.addAttribute("resulte", "success");
+		}
+		
+		return "redirect:/product/list";
+	}
 	
 }
 

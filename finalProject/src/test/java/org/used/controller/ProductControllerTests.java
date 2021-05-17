@@ -64,16 +64,25 @@ public class ProductControllerTests {
 //				.andReturn().getModelAndView().getModelMap());
 //	}
 
+//	@Test
+//	public void testModify() throws Exception{
+//		
+//		String resultPage = mockMvc.perform(MockMvcRequestBuilders.post("/product/modify")
+//				.param("user_id", "1")
+//				.param("category_id", "1")
+//				.param("product_name", "테스트 수정 상품")
+//				.param("title", "테스트 새글 제목 수정")
+//				.param("product_info", "테스트 새글 내용수정")
+//				.param("price", "2000")).andReturn().getModelAndView().getViewName();
+//		
+//		log.info(resultPage);
+//	}
+	
 	@Test
-	public void testModify() throws Exception{
+	public void testRemove() throws Exception{
 		
-		String resultPage = mockMvc.perform(MockMvcRequestBuilders.post("/product/modify")
-				.param("user_id", "1")
-				.param("category_id", "1")
-				.param("product_name", "테스트 수정 상품")
-				.param("title", "테스트 새글 제목 수정")
-				.param("product_info", "테스트 새글 내용수정")
-				.param("price", "2000")).andReturn().getModelAndView().getViewName();
+		String resultPage = mockMvc.perform(MockMvcRequestBuilders.post("/product/remove")
+				.param("product_id", "1")).andReturn().getModelAndView().getViewName();
 		
 		log.info(resultPage);
 	}

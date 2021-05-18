@@ -53,12 +53,12 @@ public class ProductMapperTests {
 //		log.info(product);
 //	}
 
-//	@Test
-//	public void testRead(){
-//		ProductVO product = mapper.read(2L);
-//		
-//		log.info(product);
-//	}
+	@Test
+	public void testRead(){
+		ProductVO product = mapper.read(2L);
+		
+		log.info(product);
+	}
 	
 //	@Test
 //	public void testDelete(){

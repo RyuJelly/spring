@@ -42,13 +42,13 @@ public class ProductController {
 		
 		rttr.addFlashAttribute("result", product.getProduct_id());
 		
-		return "redirect:/product/register";
+		return "redirect:/product/list";
 	}
 	
-	@GetMapping("/get")
+	@GetMapping({"/get", "/modify"})
 	public void get(@RequestParam("product_id")Long product_id, Model model){
 		
-		log.info("/get");
+		log.info("/get or modify");
 		model.addAttribute("product", service.get(product_id));
 	}
 	
